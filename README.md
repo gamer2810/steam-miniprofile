@@ -17,7 +17,7 @@ Preview:
 
 #### Guide to add this to an existing site
 -   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
--   A working example can be found at [My site](gamer2810.github.io/prologue/) or [It's Github](github.com/gamer2810/prologue/)
+-   A working example can be found at [My site](https://gamer2810.github.io/prologue/) or [It's Github](https://github.com/gamer2810/prologue/)
 
 *_Have a good day_*  and
 <sub>~~Please feed me a star if you are feeling generous. I'm _humgry_~~</sub>
