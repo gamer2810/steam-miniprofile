@@ -9,7 +9,8 @@ This is a tool that loads your miniprofile as a HTML entity so that you can feat
 
 #### Note:
     1. Your profile will need to be public for this to work.
-    2. It will track your _public_ status (Online, Offline), but It *wont* track your _friend-only_ status (Away,...).  
+    2. It will track your _public_ status (Online, Offline),  
+        but It *wont* track your _friend-only_ status (Away,...).  
     3. If your AccountID is invalid, it will instead load *MY* (as in the one writing this) miniprofile :).
 
 #### Guide to add this to an existing site
