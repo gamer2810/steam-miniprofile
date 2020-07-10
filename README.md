@@ -6,7 +6,7 @@ Preview:
 ## Guide
 
 1. Get your Steam's **AccountID**, you can use [SteamDB](https://steamdb.info/calculator/) or google how to find it yourself.
-2. Access `https://1653032.github.io/steam-miniprofile/?accountId={_accountId_}`
+2. Access `https://gamer2810.github.io/steam-miniprofile/?accountId={**YOUR_ACCOUNTID**}`
 
 ### To add this to your site
 -   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
