@@ -11,7 +11,7 @@ Preview:
 ### To add this to your site
 -   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
 -   Once it's loaded, you can mod it however you like using CSS.
--   A working example can be found at [My site](https://gamer2810.github.io/prologue/)
+-   A working example can be found at [My site](https://gamer2810.github.io/prologue/).
 
 
 #### Note:
