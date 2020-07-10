@@ -6,8 +6,10 @@
     <script> 
     $(function(){
       let searchParams = new URLSearchParams(window.location.search);
-      if(searchParams.has('accountId'))
+      if(searchParams.has('accountId')){
+        let accountId = searchParams.get('accountId');
         $("#includedContent").load(`https://cors-anywhere.herokuapp.com/https://steamcommunity.com/miniprofile/${accountId}.html`);
+      }
       else 
         $("#includedContent").load("https://cors-anywhere.herokuapp.com/https://steamcommunity.com/miniprofile/238158335.html"); 
     });
