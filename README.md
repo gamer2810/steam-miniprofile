@@ -21,6 +21,7 @@ Preview:
 - It will track your _public_ status (Online, Offline), but it *wont* track your _friend-only_ status (Away,...).  
 - If your AccountID is invalid, it will instead load *MY* (as in the one writing this) miniprofile :).
 - This works by calling Steam's API and render the response with Steam's CSS. *This site is not affiliated with Steam or Valve*.
+- You might have to disable caching of the _iframe_ on your web, else it will not update your profile instantly when it changes.
 
 *_Have a good day_*  and
 <sub>~~Please feed me a star if you are feeling generous. I'm _humgry_~~</sub>
