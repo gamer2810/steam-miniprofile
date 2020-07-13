@@ -1,4 +1,4 @@
-# A little hack to feature your Steam's miniprofile on your website 
+# A little tool to feature your Steam's miniprofile on your website 
 This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.  
 Preview:  
 ![Preview GIF](preview.gif)
