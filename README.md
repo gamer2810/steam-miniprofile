@@ -2,6 +2,7 @@
 This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.  
 Preview:  
 ![Preview GIF](preview.gif)
+ <iframe src="gamer2810.github.io/steam-miniprofile" title="W3Schools Free Online Web Tutorials"></iframe> 
 
 ## Guide
 
