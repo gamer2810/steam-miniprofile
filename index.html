@@ -8,14 +8,10 @@
       let searchParams = new URLSearchParams(window.location.search);
       if(searchParams.has('accountId')){
         let accountId = searchParams.get('accountId');
-        $("#includedContent").load(`https://steamcommunity.com/miniprofile/${accountId}.html`, function() {
-          $(".playersection_avatar_frame>img").attr("src","https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/rewardsseason1/goldenprofile/presige_frame_anim.png?v=2");
-        });
+        $("#includedContent").load(`https://steamcommunity.com/miniprofile/${accountId}.html`);
       }
       else {
-        $("#includedContent").load("https://steamcommunity.com/miniprofile/238158335.html", function() {
-          $(".playersection_avatar_frame>img").attr("src","https://steamcdn-a.akamaihd.net/steamcommunity/public/assets/rewardsseason1/goldenprofile/presige_frame_anim.png?v=2");
-        }); 
+        $("#includedContent").load("https://steamcommunity.com/miniprofile/238158335.html"); 
       }
     });
     </script> 
