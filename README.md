@@ -1,7 +1,8 @@
 # A little tool to feature your Steam's miniprofile on your website 
 This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.  
 Preview:  
-![Preview GIF](preview.gif)
+
+<iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId={YOUR_ACCOUNTID_HERE}" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 ## Guide
 
