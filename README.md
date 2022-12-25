@@ -7,7 +7,8 @@ Preview:
 
 1. Get your Steam's **AccountID**, you can use [SteamDB](https://steamdb.info/calculator/) or google how to find it yourself.
 2. Access `https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE`
-3. Example: https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
+
+Example: https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
 
 ### To add this to your site
 1.   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
