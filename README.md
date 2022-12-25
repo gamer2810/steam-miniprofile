@@ -6,12 +6,13 @@ Preview:
 ## Guide
 
 1. Get your Steam's **AccountID**, you can use [SteamDB](https://steamdb.info/calculator/) or google how to find it yourself.
-2. Access `https://gamer2810.github.io/steam-miniprofile/?accountId={YOUR_ACCOUNTID_HERE}`
+2. Access `https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE`
+Example: https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
 
 ### To add this to your site
 1.   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
 2.  You can also load it as an _iframe_  
-    >   `<iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId={YOUR_ACCOUNTID_HERE}" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>`
+    >   `<iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>`
 -   Once it's loaded, you can mod it however you like using CSS.
 -   A working example can be found at [My site](https://gamer2810.github.io/prologue/).
 
