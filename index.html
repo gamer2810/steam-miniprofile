@@ -7,10 +7,10 @@
       let searchParams = new URLSearchParams(window.location.search);
       if(searchParams.has('accountId')){
         let accountId = searchParams.get('accountId');
-        $("#includedContent").load(`https://candle-lopsided-baritone.glitch.me/https://steamcommunity.com/miniprofile/${accountId}.html`);
+        $("#includedContent").load(`https://candle-lopsided-baritone.glitch.me/https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${accountId}.html`);
       }
       else {
-        $("#includedContent").load("https://candle-lopsided-baritone.glitch.me/https://steamcommunity.com/miniprofile/238158335.html"); 
+        $("#includedContent").load("https://candle-lopsided-baritone.glitch.me/https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F238158335.html"); 
       }
     });
     </script> 
