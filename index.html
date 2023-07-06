@@ -1,22 +1,75 @@
-<html> 
-  <head>
-    <link rel="stylesheet" href="https://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=8auqH9wO7vE-&l=english">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script> 
-    $(function(){
-      let searchParams = new URLSearchParams(window.location.search);
-      if(searchParams.has('accountId')){
-        let accountId = searchParams.get('accountId');
-        $("#includedContent").load(`https://candle-lopsided-baritone.glitch.me/https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${accountId}.html`);
-      }
-      else {
-        $("#includedContent").load("https://candle-lopsided-baritone.glitch.me/https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F238158335.html"); 
-      }
-    });
-    </script> 
-  </head> 
+<html>
 
-  <body> 
-     <div id="includedContent"></div>
-  </body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+
+
+<head>
+  <link async rel="stylesheet" href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script async>
+    $(function () {
+      let searchParams = new URLSearchParams(window.location.search);
+      let corsHost = "https://candle-lopsided-baritone.glitch.me/"
+      let steamId = searchParams.get('steamId') ? searchParams.get('steamId') : '238158335';
+
+      $.get(`${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}.html`, function (data) {
+        $("#includedContent").html(data).hide();
+        if ($("#includedContent").children().text().length != 0) {
+          $(".default").fadeOut("fast", function () {
+            $(".default").replaceWith(data);
+            $(".default").fadeIn("fast");
+          });
+        }
+      });
+    });
+  </script>
+</head>
+
+<body style="height: fit-content; width: fit-content;">
+  <div id="includedContent"></div>
+  <!-- default miniprofile while waiting for the real one to load -->
+  <!-- cache to help with load time -->
+  <div class="miniprofile_container default">
+    <!-- Background -->
+    <div class="miniprofile_background">
+      <img class="miniprofile_backgroundblur"
+        src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg">
+    </div>
+    <div class="miniprofile_playersection ">
+      <!-- Player avatar/name stuff -->
+      <div class="playersection_avatar border_color_offline">
+        <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+          srcset="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg 1x, https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg 2x">
+      </div>
+      <div class="player_content">
+        <span class="persona offline">Loading</span>
+        <span class="friend_status_offline">Offline</span>
+      </div>
+    </div>
+    <div class="miniprofile_detailssection  not_in_game miniprofile_backdrop">
+      <div class="miniprofile_featuredcontainer">
+        <img
+          src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/206440/67e23690ce7aad7e097d828463fb0adf4932a5ab.png"
+          class="badge_icon">
+        <div class="description">
+          <div class="name">Unknown</div>
+          <div class="xp">? XP</div>
+        </div>
+      </div>
+      <div class="miniprofile_featuredcontainer">
+        <div class="friendPlayerLevel lvl_0"><span class="friendPlayerLevelNum">?</span></div>
+        <div class="description">
+          <div class="name">Steam Level</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
 </html>
