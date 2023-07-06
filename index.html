@@ -14,7 +14,7 @@
     $(function () {
       let searchParams = new URLSearchParams(window.location.search);
       let corsHost = "https://candle-lopsided-baritone.glitch.me/"
-      let steamId = searchParams.get('steamId') ? searchParams.get('steamId') : '238158335';
+      let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
 
       $.get(`${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}.html`, function (data) {
         $("#includedContent").html(data).hide();
