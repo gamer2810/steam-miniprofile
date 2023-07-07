@@ -5,8 +5,9 @@ Preview:
 
 ## Guide
 
-1. Get your Steam's **AccountID**, you can use [SteamDB](https://steamdb.info/calculator/) or google how to find it yourself.
-2. Access `https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE`
+1. Get your Steam's **ID**, you can use any of these IDs from [SteamDB](https://steamdb.info/calculator/) or google how to find it yourself.
+![image](https://github.com/gamer2810/steam-miniprofile/assets/45266477/ebd946ff-702e-4571-a306-e23fd6a65ee2)
+3. Access `https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE`
 
 Example: https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
 
@@ -17,13 +18,16 @@ Example: https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
 -   Once it's loaded, you can mod it however you like using CSS.
 -   A working example can be found at [My site](https://gamer2810.github.io/prologue/).
 
-
 #### Note:
 - This works by calling Steam's API and render the response with Steam's CSS. *This site is not affiliated with Steam or Valve*.
 - Your profile will need to be public for this to work.
 - It will track your _public_ status (Online, Offline), but it *wont* track your _friend-only_ status (Away, Snooze,...).  
 - If your AccountID is invalid, it will instead load *MY* (as in the one writing this) miniprofile :).
 - You might have to disable caching of the _iframe_ on your web, or changes on Steam won't be reflected immediately.
+
+#### Contact
+1. If you decide to use this tool, I'd love to see you show it off in [Discussion](https://github.com/gamer2810/steam-miniprofile/discussions/categories/show-and-tell).
+2. If the tool does not work, please open an [Issue](https://github.com/gamer2810/steam-miniprofile/issues/new) and I will take a look.
 
 *_Have a good day_*  and
 <sub>~~Please feed me a star if you are feeling generous. I'm _humgry_~~</sub>
