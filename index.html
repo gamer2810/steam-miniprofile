@@ -21,7 +21,7 @@
       let corsHost = "https://candle-lopsided-baritone.glitch.me/"
       let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
 
-      $.get(`${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}.html`, function (data) {
+      $.get(`${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}`, function (data) {
         $("#includedContent").html(data).hide();
         if ($("#includedContent").children().text().length != 0) {
           $(".default").fadeOut("fast", function () {
