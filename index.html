@@ -18,7 +18,7 @@
   <script defer async>
     $(function () {
       let searchParams = new URLSearchParams(window.location.search);
-      let corsHost = "https://candle-lopsided-baritone.glitch.me/"
+      let corsHost = "https://steam-miniprofile-cors.glitch.me/"
       let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
 
       $.get(`${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}`, function (data) {
