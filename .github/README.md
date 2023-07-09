@@ -26,7 +26,22 @@ Examples:
 -   Once it's loaded, you can mod it however you like using CSS.
 -   A working example can be found at [My site](https://gamer2810.github.io/prologue/).
 
-#### Note:
+### How it works
+```mermaid
+sequenceDiagram
+    User->>+gamer2810.github.io: Get Steam Miniprofile
+    gamer2810.github.io->>-User: Return loading miniprofile
+    Note right of User: Wait for real profile to load
+    gamer2810.github.io->>+CORS Server: Get real profile HTML
+    Note right of CORS Server: https://glitch.com/~steam-miniprofile-cors
+    CORS Server->>+Steam: Get real profile HTML
+    Steam->>-CORS Server: Requested HTML
+    CORS Server->>-gamer2810.github.io:Profile HTML with CORS headers
+    gamer2810.github.io-->User: Replace loading miniprofile with real HTML
+```
+
+
+#### Note
 - This works by calling Steam's API and render the response with Steam's CSS. *This site is not affiliated with Steam or Valve*.
 - Your profile will need to be public for this to work.
 - It will track your _public_ status (Online, Offline), but it *wont* track your _friend-only_ status (Away, Snooze,...).  
