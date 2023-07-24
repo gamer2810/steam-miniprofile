@@ -1,5 +1,12 @@
 # A little tool to feature Steam's miniprofile on your website 
+
+![Status Badge](https://uptime.k3k.dev/api/badge/2/status?upColor=green&downColor=red)
+![Avg Response Badge](https://uptime.k3k.dev/api/badge/2/avg-response/1)
+
+Status page: https://uptime.k3k.dev/status/steam-miniprofile
+
 This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.  
+
 Preview:  
 ![Preview GIF](preview.gif)
 
