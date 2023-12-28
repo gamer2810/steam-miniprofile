@@ -16,6 +16,12 @@ Preview:
 ```html
  https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE
 ```
+### Internationalization / Change Language
+Add query parameter `lang` in your URL.
+Example: https://gamer2810.github.io/steam-miniprofile/?lang=schinese
+
+Available languages: `bulgarian,danish,english,french,greek,italian,koreana,polish,brazilian,russian,latam,swedish,tchinese,ukrainian,czech,dutch,finnish,german,hungarian,japanese,norwegian,portuguese,romanian,schinese,spanish,thai,turkish,vietnamese`
+
 
 Examples: 
 - https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
