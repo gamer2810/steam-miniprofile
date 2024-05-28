@@ -20,7 +20,7 @@
       let searchParams = new URLSearchParams(window.location.search);
       let corsHost = "https://steam-miniprofile-cors.glitch.me/"
       let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
-      let interactive = searchParams.get('interactive') ? searchParams.get('lang') : false;
+      let interactive = searchParams.get('interactive') ? searchParams.get('interactive') : false;
       let vanityId = searchParams.get('vanity') ? searchParams.get('vanityId') : '';
       // For list of available languages, check out README on https://github.com/gamer2810/steam-miniprofile
       let language = searchParams.get('lang') ? searchParams.get('lang') : 'english';
@@ -41,7 +41,7 @@
         }
         
         if(interactive && vanityId != null) {
-          $('#includedContent').on('click', function(e){ 
+          $('.miniprofile_container').on('click', function(e){ 
               e.preventDefault(); 
               var url = $(this).attr('href'); 
               window.open(steamURL, '_blank');
