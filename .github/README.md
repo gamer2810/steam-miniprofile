@@ -57,7 +57,8 @@ sequenceDiagram
 #### Note
 - This works by calling Steam's API and render the response with Steam's CSS. *This site is not affiliated with Steam or Valve*.
 - Your profile will need to be public for this to work.
-- It will track your _public_ status (Online, Offline), but it *wont* track your _friend-only_ status (Away, Snooze,...).  
+- ~~It will track your _public_ status (Online, Offline), but it *wont* track your _friend-only_ status (Away, Snooze,...)~~.
+- You need to have your `Game Details` privacy settings set to `PUBLIC` if you want to show rich presence with `steam-miniprofile`.
 - If your AccountID is invalid, it will instead load *MY* (as in the one writing this) miniprofile :).
 - You might have to disable caching of the _iframe_ on your web, or changes on Steam won't be reflected immediately.
 
