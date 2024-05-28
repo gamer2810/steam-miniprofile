@@ -41,7 +41,8 @@
         }
         
         if(interactive && vanityId != null) {
-          $('.miniprofile_container').on('click', function(e){ 
+          document.body.style.cursor = "pointer";
+          $(document).on('click', 'div.miniprofile_container', function(e){ 
               e.preventDefault(); 
               var url = $(this).attr('href'); 
               window.open(steamURL, '_blank');
