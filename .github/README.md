@@ -14,18 +14,24 @@ Preview:
 ```html
  https://gamer2810.github.io/steam-miniprofile/?accountId=YOUR_ACCOUNTID_HERE
 ```
+Examples: 
+- https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
+- https://gamer2810.github.io/steam-miniprofile/?accountId=76561198198424063
+- https://gamer2810.github.io/steam-miniprofile/?accountId=STEAM_1:1:119079167
+- https://gamer2810.github.io/steam-miniprofile/?accountId=[U:1:238158335]
+
 ### Internationalization / Change Language
 Add query parameter `lang` in your URL.
 Example: https://gamer2810.github.io/steam-miniprofile/?lang=schinese
 
 Available languages: `bulgarian,danish,english,french,greek,italian,koreana,polish,brazilian,russian,latam,swedish,tchinese,ukrainian,czech,dutch,finnish,german,hungarian,japanese,norwegian,portuguese,romanian,schinese,spanish,thai,turkish,vietnamese`
 
-
-Examples: 
-- https://gamer2810.github.io/steam-miniprofile/?accountId=238158335
-- https://gamer2810.github.io/steam-miniprofile/?accountId=76561198198424063
-- https://gamer2810.github.io/steam-miniprofile/?accountId=STEAM_1:1:119079167
-- https://gamer2810.github.io/steam-miniprofile/?accountId=[U:1:238158335]
+### Interactive
+You can make the content clickable and open your steam profile on click using `interactive` and `vanityId` search params.
+1. `vanityId` is what comes after your normal steamcommunity links 
+Example: `https://steamcommunity.com/id/k3k2810` -> vanityId = `k3k2810`
+2. `interactive=true`
+Full example: `https://gamer2810.github.io/steam-miniprofile/?interactive=true&vanityId=k3k2810`
 
 ### To add this to your site
 1.   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
