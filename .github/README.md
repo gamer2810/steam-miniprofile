@@ -31,6 +31,7 @@ You can make the content clickable and open your steam profile on click using `i
 1. `vanityId` is what comes after your normal steamcommunity links 
 Example: `https://steamcommunity.com/id/k3k2810` -> vanityId = `k3k2810`
 2. `interactive=true`
+
 Full example: `https://gamer2810.github.io/steam-miniprofile/?interactive=true&vanityId=k3k2810`
 
 ### To add this to your site
