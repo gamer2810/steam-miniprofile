@@ -25,7 +25,7 @@
       // For list of available languages, check out README on https://github.com/gamer2810/steam-miniprofile
       let language = searchParams.get('lang') ? searchParams.get('lang') : 'english';
       let corsURL = `${corsHost}https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}?l=${language}`;
-      let steamURL = `https://steamcommunity.com/id/{vanityId}`;
+      let steamURL = `https://steamcommunity.com/id/${vanityId}`;
       
       if(steamId === 'YOUR_ACCOUNTID_HERE') {
         steamId = '238158335';
