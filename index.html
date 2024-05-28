@@ -40,7 +40,7 @@
           });
         }
         
-        if(interactive && vanityId != null) {
+        if(interactive && vanityId) {
           document.body.style.cursor = "pointer";
           $(document).on('click', 'div.miniprofile_container', function(e){ 
               e.preventDefault(); 
