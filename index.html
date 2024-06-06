@@ -38,6 +38,13 @@
             $(".default").replaceWith(data);
             $(".default").fadeIn("fast");
           });
+
+          window.parent.postMessage(
+            {
+              state:"loaded"
+            }, {
+            targetOrigin: '*',
+          })
         }
         
         if(interactive && vanityId) {
