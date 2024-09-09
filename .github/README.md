@@ -75,3 +75,5 @@ sequenceDiagram
 
 *_Have a good day_*  and
 <sub>~~Please feed me a star if you are feeling generous. I'm _humgry_~~</sub>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gamer2810/steam-miniprofile&type=Date)](https://star-history.com/#gamer2810/steam-miniprofile&Date)
