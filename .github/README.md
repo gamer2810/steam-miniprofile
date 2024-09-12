@@ -1,6 +1,8 @@
 # A little tool to feature Steam's miniprofile on your website 
 
-This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.  
+This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.
+
+This tool only shows **PUBLIC** information of your Steam account and therefore **DOES NOT NEED your Steam's API KEY or CREDENTIALS**. 
 
 Preview:  
 ![Preview GIF](preview.gif)
