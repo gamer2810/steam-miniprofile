@@ -24,9 +24,27 @@ Examples:
 
 ### Internationalization / Change Language
 Add query parameter `lang` in your URL.
-Example: https://gamer2810.github.io/steam-miniprofile/?lang=schinese
+
+Example: 
+
+https://gamer2810.github.io/steam-miniprofile/?lang=schinese
 
 Available languages: `bulgarian,danish,english,french,greek,italian,koreana,polish,brazilian,russian,latam,swedish,tchinese,ukrainian,czech,dutch,finnish,german,hungarian,japanese,norwegian,portuguese,romanian,schinese,spanish,thai,turkish,vietnamese`
+
+### Featured Game
+This will let you display your favorite game with your playtime on it.
+Add query parameter `appId` in your URL.
+
+Example: 
+
+![image](https://github.com/user-attachments/assets/6fa1b661-deb2-46d0-ada1-8abbd69a9aa7)
+
+
+https://gamer2810.github.io/steam-miniprofile/?accountId=80655735&appId=1361210
+
+#### Notes:
+- You **MUST** have your `Game details` privacy settings set to `Public`
+- You can look up a game's appId using [SteamDB](https://steamdb.info/)
 
 ### Interactive
 You can make the content clickable and open your steam profile on click using `interactive` and `vanityId` search params.
