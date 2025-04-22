@@ -4,8 +4,10 @@ This is a tool that loads your miniprofile(*with animated background and frame*)
 
 This tool only shows **PUBLIC** information of your Steam account and therefore **DOES NOT NEED your Steam's API KEY or CREDENTIALS**. 
 
-Preview:  
+### Preview:  
 ![Preview GIF](preview.gif)
+
+## See it in action on my website: https://ark.k3k.dev/
 
 ## Guide
 
