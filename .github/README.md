@@ -1,5 +1,7 @@
 # A little tool to feature Steam's miniprofile on your website 
 
+### Now come with an interactive builder: https://gamer2810.github.io/miniprofile-builder/
+
 This is a tool that loads your miniprofile(*with animated background and frame*) as a HTML entity so that you can feature it on your website.
 
 This tool only shows **PUBLIC** information of your Steam account and therefore **DOES NOT NEED your Steam's API KEY or CREDENTIALS**. 
@@ -7,7 +9,7 @@ This tool only shows **PUBLIC** information of your Steam account and therefore 
 ### Preview:  
 ![Preview GIF](preview.gif)
 
-## See it in action on my website: https://ark.k3k.dev/
+### See it in action on my website: https://ark.k3k.dev/
 
 ## Guide
 
