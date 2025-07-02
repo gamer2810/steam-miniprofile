@@ -18,7 +18,7 @@
   <script defer async>
     $(function () {
       let searchParams = new URLSearchParams(window.location.search);
-      let corsHost = "https://nodejs-serverless-function-express-seven-phi-15.vercel.app/api/hello"
+      let corsHost = "https://cors.k3k.dev/api/hello"
       let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
       let interactive = searchParams.get('interactive') ? searchParams.get('interactive') : false;
       let vanityId = searchParams.get('vanityId') ? searchParams.get('vanityId') : '';
