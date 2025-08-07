@@ -33,14 +33,12 @@
         steamId = '238158335';
       }
 
-        if (centered) {
+      if (centered == 'true') {
         const style = document.createElement('style');
         style.textContent = `
           html {
               display: grid;
-              align-items: center;
-              justify-content: center;
-              justify-items: start;
+              place-items: center;
           }
         `;
         document.head.appendChild(style);
