@@ -58,6 +58,14 @@ Example: `https://steamcommunity.com/id/k3k2810` -> vanityId = `k3k2810`
 
 Full example: `https://gamer2810.github.io/steam-miniprofile/?interactive=true&vanityId=k3k2810`
 
+### Styling
+#### Centered display
+By default, the iframe's content will display on the top left corner and will take up all available space from the parent container.
+
+To make the content display in the center of the available space, add `centered=true` to your url.
+
+Full example: `https://gamer2810.github.io/steam-miniprofile/?interactive=true&vanityId=k3k2810&centered=true`
+
 ### To add this to your site
 1.   You can load it into any div with JQuery or Javascript. [Jquery's Load() guide](https://www.tutorialspoint.com/How-to-load-external-HTML-into-a-div-using-jQuery).
 2.  You can also load it as an _iframe_  
